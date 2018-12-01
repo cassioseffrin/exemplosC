@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-int inicarMatanca(int arr[], int pos, int nroPri)
+int iniciarMatanca(int arr[], int pos, int nroPri)
 {
     int vivos = contarVivos(arr, nroPri);
     while (vivos != 1)
@@ -83,5 +83,5 @@ int main(void)
     {
         arr[i] = 1;
     }
-    inicarMatanca(arr, pos, quant);
+    iniciarMatanca(arr, pos, quant);
 }
