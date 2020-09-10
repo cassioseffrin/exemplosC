@@ -49,6 +49,8 @@ int main(){
     // printf("A media é: %f", media());
    
    printf ("fatorial de 4 : %f", fatorial(4) );
+
+   
     printf("\n\nfim de execucao !!!");
     
 }

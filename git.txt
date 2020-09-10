@@ -1,0 +1,8 @@
+cd /project
+git init
+git add *
+git status
+git commit -m "first commit"
+git remote add origin https://github.com/cassioseffrin/jerseyclientmoodle.git
+git push -u origin master
+git pull --rebase https://github.com/cassioseffrin/clinicaveterinaria.git
