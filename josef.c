@@ -1,9 +1,13 @@
 #include <stdio.h>
 
-int josephus(int pessoas, int ignorar){
-    if (pessoas == 1){
+int josephus(int pessoas, int ignorar)
+{
+    if (pessoas == 1)
+    {
         return 1;
-    }else{
+    }
+    else
+    {
         return (josephus(pessoas - 1, ignorar) + ignorar - 1) % pessoas + 1;
     }
 }
